@@ -29,18 +29,15 @@ Logo abaixo estará disponível um sumário onde estarão descritas os módulos 
 <details>
   <summary>Fundamentos do Desenvolvimento Web</summary>
 
-- <a href="#bloco1">Bloco 1: Unix, Bash e ShellScript </a>
+- <a href="#bloco1">Bloco 1: Unix & Bash </a>
 - <a href="#bloco2">Bloco 2: Git, GitHub e Internet </a>
 ---
 
 <h1 align="center"> Fundamentos do Desenvolvimento Web </h1>
 
-<h2 id="bloco1"> Bloco 1: Unix, Bash e ShellScript </h2>
+<h2 id="bloco1"> Bloco 1: Unix & Bash </h2>
 <p>
 Primeiro bloco de conteúdo, onde fomos nos familiarizando com algumas ferramentas importantes para o ambiente de desenvolvimento. Tendo contato com o terminal, aprendendo a navegar pelas pastas, alterar arquivos, adicionar linhas.
-</p>
-<p>
-Também aprendemos a automatizar alguns processo através do uso de ShellScript.
 </p>
 
 <h2 id="bloco2"> Bloco 2: Git, GitHub e Internet </h2>
