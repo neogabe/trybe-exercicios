@@ -50,3 +50,11 @@ Aprendemos a salvar nossos projetos no GitHub e como ele também possui várias 
 <p>
 Sobre a internet entendemos o seu fluxo de funcionamento, seus protocolos, requisições, respostas, estrutura, evolução.
 </p>
+
+<h2 id="bloco3"> Bloco 3: Introdução à HTML e CSS </h2>
+<p>
+Demos nossos primeiros passos com HTML e CSS, primeiro entendendo a estrutura do HTML, suas principais tags e questões de semântica. 
+</p>
+<p>
+No CSS aprendemos os primeiros passos, entendendo quais são os seletores que utilizamos para acessar os elementos no HTML,.como trabalhar questão de posicionamento e principais propriedades utilizadas.
+</p>
