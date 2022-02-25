@@ -1,3 +1,54 @@
-div:hover {
-  border: 2px dotted black ;
+h1 {
+  font-size: 40px;
+  border: 1px solid black;
+}
+
+h3 {
+  color: red;
+}
+
+li {
+  font-size: 20px;
+}
+
+ol li {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+ol li:nth-child(even){
+  color: green;
+}
+
+ol li:nth-child(odd) {
+  text-transform: uppercase;
+}
+
+.programing-languages li:nth-child(-n+3) {
+  color: blue;
+}
+
+.programing-languages li span:nth-child(-n+3) {
+  color: blue;
+  background-color: pink;
+}
+
+a#orange:hover {
+  font-weight: bold;
+  color: orange;
+}
+
+a#green:hover {
+  font-weight: bold;
+  color: green;
+}
+
+a#black:hover {
+  font-weight: bold;
+  color: black;
+}
+
+a#yellow:hover {
+  font-weight: bold;
+  color: yellow;
 }
