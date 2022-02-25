@@ -1,11 +1,3 @@
-h1, p, li {
-  text-align: center;
-}
-
-ul {
-  list-style: none;
-}
-
-ul:hover {
-  background-color: red;
+div:hover {
+  border: 2px dotted black ;
 }
