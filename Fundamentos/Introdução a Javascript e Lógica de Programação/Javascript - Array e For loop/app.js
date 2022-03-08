@@ -8,4 +8,10 @@ for (let i = 0; i < numbers.length; i++) {
 
 }
 
+if (media > 20) {
+  console.log('Valor maior que 20');
+} else {
+  console.log('Valor menor ou igual a 20');
+}
+
 console.log(media);
