@@ -1,4 +1,9 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let min = Math.min(...numbers);
+const dogs = {
+  Fido: "Mutt",
+  Hunter: "Doberman",
+  Snoopie: "Beagle"
+};
 
-console.log(min);
+const myDog = "Hunter";
+const myBreed = dogs[myDog];
+console.log(myBreed);
