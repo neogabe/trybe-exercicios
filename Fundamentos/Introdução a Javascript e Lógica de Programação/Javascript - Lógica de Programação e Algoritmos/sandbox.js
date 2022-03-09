@@ -1,7 +1,8 @@
-let word = 'tryber';
-let newWord = '';
-for (let i = word.length - 1; i >= 0; i--) {
-  newWord += word[i]
+let fatorial = 10;
+let result = fatorial;
+
+for (let i = 1; i < fatorial; i++) {
+  result *= i
 }
 
-console.log(newWord);
+console.log(result);
