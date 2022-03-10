@@ -1,14 +1,15 @@
-let leitor = {
-  nome: 'Julia',
-  sobrenome: 'Pessoa',
-  idade: 21,
-  livrosFavoritos: [
-    {
-      titulo: 'O Pior Dia de Todos',
-      autor: 'Daniela Kopsch',
-      editora: 'Tordesilhas',
-    },
-  ],
-};
+function isPalindrome(str) {
+  let backward = str.length - 1
+  for (let i = 0; i < str.length; i++) {
+    let x = str[i]
+    let y = str[backward - i]
+    if (x != y) {
+      return false
+    } else {
+      return true
+    }
+  }
+}
 
-console.log(`O livro favorito de ${leitor.nome} ${leitor.sobrenome} se chama ${leitor.livrosFavoritos[0].titulo}`);
+console.log(isPalindrome('arara')); // true
+console.log(isPalindrome('loving')); // false
