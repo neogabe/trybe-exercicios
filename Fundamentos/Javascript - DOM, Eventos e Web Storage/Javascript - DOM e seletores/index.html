@@ -67,10 +67,13 @@
 
       // 5. Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
       for (let index = 0; index < description.length; index++) {
-        description[index].style.textTransform = 'uppercase'
+        description[index].style.textTransform = "uppercase";
       }
 
       // 6. Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+      for (let index = 0; index < description.length; index++) {
+        console.log(description[index].innerText);
+      }
     </script>
   </body>
 </html>
