@@ -94,6 +94,30 @@
       img.src = "https://picsum.photos/200";
       img.className = "small-image";
       section2.appendChild(img);
+
+      //Tarefa 8
+      const items = [
+        "um",
+        "dois",
+        "três",
+        "quatro",
+        "cinco",
+        "seis",
+        "sete",
+        "oito",
+        "nove",
+        "dez",
+      ];
+      const ul = document.createElement("ul");
+
+      for (let i = 0; i < items.length; i++) {
+        let item = items[i];
+
+        const li = document.createElement("li");
+        li.innerText = item;
+        ul.appendChild(li);
+      }
+      section3.appendChild(ul);
     </script>
   </body>
 </html>
