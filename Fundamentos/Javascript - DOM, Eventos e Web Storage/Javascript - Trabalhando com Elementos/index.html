@@ -113,8 +113,9 @@
       for (let i = 0; i < items.length; i++) {
         let item = items[i];
 
-        const li = document.createElement("li");
+        let li = document.createElement("li");
         li.innerText = item;
+        li.className = 'numero'
         ul.appendChild(li);
       }
       section3.appendChild(ul);
@@ -127,6 +128,34 @@
       mainTag.appendChild(h3_1);
       mainTag.appendChild(h3_2);
       mainTag.appendChild(h3_3);
+
+      //Tarefa Bônus 1
+      h1.className = 'title'
+
+      //Tarefa Bônus 2
+      h3_1.className = 'description'
+      h3_2.className = 'description'
+      h3_3.className = 'description'
+
+      //Tarefa Bônus 3
+      mainTag.removeChild(section2);
+
+      //Tarefa Bônus 4
+      section3.style.marginRight = 'auto'
+
+      //Tarefa Bônus 5
+      section1.style.backgroundColor = '#2fc18c'
+
+      //Tarefa Bônus 6
+      let newItems = document.querySelectorAll('.numero')
+
+      for (let i = 0; i < newItems.length; i++) {
+        let numbers = newItems[i]
+
+        if (numbers.innerText.includes('nove') && numbers.innerText.includes('dez')) {
+          ul.li.removeChild(numbers)
+        }
+      }
     </script>
   </body>
 </html>
