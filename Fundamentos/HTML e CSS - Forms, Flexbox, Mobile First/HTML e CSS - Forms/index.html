@@ -1,13 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>HTML & CSS - Forms</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML & CSS - Forms</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulário</h1>
+    </header>
+
+    <!-- Formulário -->
+    <form action="">
+      <fieldset>
+        <!-- Nome -->
+        <label for="nome"
+          >Nome<input
+            type="text"
+            id="nome"
+            name="nome"
+            minlength="10"
+            maxlength="40"
+            class="input"
+        /></label>
+        <!-- Email -->
+        <label for="email"
+          >Email<input
+            type="email"
+            id="email"
+            name="email"
+            minlength="10"
+            maxlength="50"
+            class="input"
+        /></label>
+        <!-- <h3> com subtítulo -->
+        <h3>Destino Preferido</h3>
+        <!-- Radio Buttons -->
+        <label for="cidade"
+          ><input
+            type="radio"
+            name="destino-preferido"
+            id="cidade"
+          />Cidade</label
+        >
+        <label for="campo"
+          ><input
+            type="radio"
+            name="destino-preferido"
+            id="campo"
+          />Campo</label
+        >
+        <label for="praia"
+          ><input
+            type="radio"
+            name="destino-preferido"
+            id="praia"
+          />Praia</label
+        >
+        <label for="montanhas"
+          ><input
+            type="radio"
+            name="destino-preferido"
+            id="montanhas"
+          />Montanhas</label
+        >
+        <!-- <h3> com subtítulo -->
+        <h3>
+          Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso
+          TrybeTrip?
+        </h3>
+        <!-- <textarea> para a resposta da pergunta acima -->
+        <textarea name="" id="" cols="70" rows="6" maxlength="500"></textarea>
+        <!-- <h3> com subtítulo -->
+        <h3>
+          Qual a melhor data para realizar a viagem?
+        </h3>
+        <!-- Data -->
+        <input type="date" name="input-date" id="input-date">
+        <!-- Confirmação para newsletter -->
+        <label class="check-box" for="newsletter-checkbox"><input type="checkbox" name="check" id="newsletter-checkbox" class="check">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <!-- Confirmação para uso de imagem -->
+        <label class="check-box" for="image-rights-checkbox"><input type="checkbox" name="check" id="image-rights-checkbox" class="check">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+      </fieldset>
+      <button id="submit" class="form-button" type="submit">Enviar</button>
+      <button class="form-button" type="reset">Apagar</button>
+    </form>
     
-</body>
+    <script>
+      const submit = document.querySelector('#submit');
+
+      submit.addEventListener('click', (e) => {
+        e.preventDefault();
+      })
+    </script>
+  </body>
 </html>
