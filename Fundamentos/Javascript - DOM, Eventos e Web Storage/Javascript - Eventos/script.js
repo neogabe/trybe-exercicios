@@ -58,3 +58,6 @@ for (let i = 0; i < dezDaysList.length; i++){
 
   days.appendChild(day)
 }
+
+// Exercício 2
+
